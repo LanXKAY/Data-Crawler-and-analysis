@@ -1,2 +1,8 @@
 # Data-Crawler-and-analysis
 数据爬虫分析与可视化
+
+这是我大三上学期大数据课程中的结课大作业，作业的主要目标是对微博社区管理中心的不实信息进行爬取，处理及分析
+
+分为多个py文件实现功能：其中数据的爬取由DataCrawling.py文件处理；数据的清洗由DataDeduplicated.py文件处理；数据的处理分为几部分：BuildBoW.py文件生成了词袋矩阵，FeatureExtract.py文件负责特征的提取；DataAnalyse.py文件计算了词袋模型的TF-IDF矩阵并且使用SVD分解对TF-IDF矩阵进行了分解。数据的分析及可视化分为两个文件：DataCluster.py文件使用LDA模型对不实信息进行了聚类处理，DataVisualize.py文件对数据进行了3组可视化实验。
+
+pdf文档中解释了程序的实现方法与使用到的主要的函数库。

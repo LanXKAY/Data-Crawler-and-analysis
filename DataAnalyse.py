@@ -1,3 +1,5 @@
+#进行数据分析
+
 import jieba
 from gensim import corpora, models, similarities
 import re

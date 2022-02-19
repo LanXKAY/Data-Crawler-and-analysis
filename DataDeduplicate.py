@@ -1,3 +1,5 @@
+# 对爬取到的数据进行清洗与去重
+
 import jieba
 import re
 from gensim import corpora, models, similarities

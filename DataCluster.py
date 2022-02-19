@@ -1,3 +1,5 @@
+#使用LDA模型对数据进行聚类处理
+
 import jieba
 import jieba.posseg as jp
 from gensim import corpora, models, similarities

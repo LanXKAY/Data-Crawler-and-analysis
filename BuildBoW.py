@@ -1,3 +1,5 @@
+# 构建词袋模型
+
 import pandas as pd
 import jieba
 from gensim import corpora, models, similarities
